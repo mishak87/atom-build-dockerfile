@@ -1,0 +1,26 @@
+{
+  "name": "build-dockerfile",
+  "version": "1.0.0",
+  "description": "Builds Dockerfile",
+  "repository": "https://github.com/mishak87/atom-build-dockerfile",
+  "license": "MIT",
+  "engines": {
+    "atom": "^1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Builds Dockerfile",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "keywords": [
+    "build",
+    "compile",
+    "dockerfile",
+    "javascript",
+    "productivity"
+  ],
+  "main": "lib/provider.coffee"
+}
