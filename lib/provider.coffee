@@ -4,6 +4,8 @@ module.exports = provideBuilder: -> class
   getNiceName: -> 'Dockerfile'
 
   isEligible: ->
+    if atom.getVersion().startsWith '1.7.'
+      return true
     editor = atom.workspace.getActiveTextEditor()
     if !editor or !editor.getPath()
       return false
