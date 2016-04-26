@@ -1,6 +1,6 @@
 {
   "name": "build-dockerfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Builds Dockerfile",
   "repository": "https://github.com/mishak87/atom-build-dockerfile",
   "license": "MIT",
